@@ -47,7 +47,7 @@ public class Input{
        // displaying the str aaray containing object of string
         System.out.println(Arrays.toString(str));
 
-        // modify
+        // modify 
         str[2] = "Jitesh";
         System.out.println(Arrays.toString(str));
     }

@@ -4,7 +4,7 @@ public class Arrays{
         //Q: store a roll no:
         int rolln = 7;
         // Q: store a name:
-        String = "Jitesh Yadav";
+        String name = "Jitesh Yadav";
         
         // Q: store 5 roll no :
         int roll1 = 23;

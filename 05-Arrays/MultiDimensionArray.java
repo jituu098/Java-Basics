@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import  java.util.Scanner;
+import java.util.Scanner;
 public class MultiDimensionArray{
         //  java D:\Jites\Java\Java-Basics\05-Arrays\MultiDimensionArray.java
     public static void main(String[] args) {
@@ -36,8 +36,17 @@ public class MultiDimensionArray{
         // }
 
 // enhanced for loop to print 2D array
-        for (int row = 0; row < 10; row++) {
-            System.out.println(Arrays.toString(arr[row]));
+        // for (int row = 0; row < 10; row++) {
+        //     System.out.println(Arrays.toString(arr[row]));
+        // }
+        
+        // more enhace for loop thab above
+        for(int[] a : arr){
+            System.out.print(Arrays.toString(a));
         }
+// for the string array
+        // for(String[] element: arr){
+        //     System.out.print(element);
+        // }
     }
 }

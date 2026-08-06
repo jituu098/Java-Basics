@@ -16,7 +16,7 @@ public class RotatedBS{
         } 
         
         // if pivot is found you found 2 asc sorted arrays
-        if (arr[pivot] >= target){
+        if (arr[pivot] == target){
             return pivot;
         }
         if (target >= arr[0]){
